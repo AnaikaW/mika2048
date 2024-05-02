@@ -11,7 +11,7 @@ hr {
     width: 400px;
     height: 400px;
 
-    background-color: #cdc1b5;
+    background-image: URL("data/0.jpg");
     border: 6px solid #bbada0;
 
     margin: 0 auto;
@@ -35,50 +35,47 @@ hr {
 /* colored tiles */
 
 .x2 {
-   background-image: URL("data/0.jpg");
+   background-image: URL("data/1.jpg");
 }
 
 .x4 {
-    background-image: URL("data/0.jpg");
+    background-image: URL("data/2.jpg");
 }
 
 .x8 {
-    background-image: URL("data/0.jpg");
+    background-image: URL("data/3.jpg");
 }
 
 .x16{
-    background-image: URL("data/0.jpg");
+    background-image: URL("data/4.jpg");
 }
 
 .x32{
-    background-image: URL("data/0.jpg");
+    background-image: URL("data/5.jpg");
 }
 
 .x64{
-    background-image: URL("data/0.jpg");
+    background-image: URL("data/6.jpg");
 }
 
 .x128{
-    background-image: URL("data/0.jpg");
+    background-image: URL("data/7.jpg");
 }
 
 .x256{
-    background-image: URL("data/0.jpg");
+    background-image: URL("data/8.jpg");
 }
 
 .x512{
-    background-color: #edc651;
-    color: white;
+    background-image: URL("data/9.jpg");
 }
 
 .x1024{
-    background-color: #eec744;
-    color: white;
+    background-image: URL("data/10.jpg");
 }
 
 .x2048{
-    background-color: #ecc230;
-    color: white;
+    background-image: URL("data/11.jpg");
 }
 
 .x4096 {
