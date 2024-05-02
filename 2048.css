@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Courier New", "Lucida Console", monospace;
     text-align: center;
 }
 
@@ -11,8 +11,8 @@ hr {
     width: 400px;
     height: 400px;
 
-    background-color: URL("data/00.jpg");
-    border-image: 6px solid #bbada0;
+    background-color: #f56767;
+    border: 6px solid #f5bcbc;
 
     margin: 0 auto;
     display: flex;
@@ -22,9 +22,8 @@ hr {
 .tile {
     width: 90px;
     height: 90px;
-    border: 5px solid #bbada0;
+    border: 5px solid #f5bcbc;
 }
-
 
 /* colored tiles */
 
@@ -73,11 +72,9 @@ hr {
 }
 
 .x4096 {
-    background-color: #fe3d3d;
-    color: white;
+    background-image: URL("data/win.jpg");
 }
 
 .x8192 {
-    background-color: #ff2020;
-    color: white;
+    background-image: URL("data/win.jpg");
 }
