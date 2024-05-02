@@ -35,23 +35,23 @@ hr {
 /* colored tiles */
 
 .x2 {
-   background-image: URL("dataa/tests.jpg");
+   background-image: URL("data/1.jpg");
 }
 
 .x4 {
-    background-image: URL("dataaa/2.jpg");
+    background-image: URL("data/2.jpg");
 }
 
 .x8 {
-    background-image: URL("dataaa/3.jpg");
+    background-image: URL("data/3.jpg");
 }
 
 .x16{
-    background-image: URL("dataa/4.jpg");
+    background-image: URL("data/4.jpg");
 }
 
 .x32{
-    background-image: URL("dataa/5.jpg");
+    background-image: URL("data/5.jpg");
 }
 
 .x64{
