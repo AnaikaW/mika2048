@@ -42,7 +42,7 @@ function updateTile(tile, num) {
     tile.classList.value = ""; //clear the classList
     tile.classList.add("tile");
     if (num > 0) {
-        tile.innerText = num.toString();
+        //tile.innerText = num.toString();
         if (num <= 4096) {
             tile.classList.add("x"+num.toString());
         } else {
@@ -169,7 +169,7 @@ function setTwo() {
         if (board[r][c] == 0) {
             board[r][c] = 2;
             let tile = document.getElementById(r.toString() + "-" + c.toString());
-            tile.innerText = "2";
+            //tile.innerText = "2";
             tile.classList.add("x2");
             found = true;
         }
