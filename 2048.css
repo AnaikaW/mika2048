@@ -11,8 +11,9 @@ hr {
     width: 400px;
     height: 400px;
 
-    background-image: URL("data/0.jpg");
-    border: 6px solid #bbada0;
+    background-image: URL("data/00.jpg");
+    border: 6px;
+    border-image: URL("data/0.jpg");
 
     margin: 0 auto;
     display: flex;
@@ -22,7 +23,8 @@ hr {
 .tile {
     width: 90px;
     height: 90px;
-    border: 5px solid #bbada0;
+    border: 5px;
+    border-image: URL("data/0.jpg");
 
     display: flex;
     justify-content: center;
