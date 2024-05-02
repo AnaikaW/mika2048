@@ -1,1 +1,1 @@
-# mika2048
+# https://anaikaw.github.io/mika2048/
