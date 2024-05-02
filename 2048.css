@@ -1,6 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    
 }
 
 hr {
@@ -27,8 +26,6 @@ hr {
     border-image: URL("data/0.jpg");
 
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 
