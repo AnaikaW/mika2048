@@ -35,43 +35,35 @@ hr {
 /* colored tiles */
 
 .x2 {
-    background-color: #eee4da;
-    color: #727371;
+   background-image: URL("data/0.jpg");
 }
 
 .x4 {
-    background-color: #ece0ca;
-    color: #727371;
+    background-image: URL("data/0.jpg");
 }
 
 .x8 {
-    background-color: #f4b17a;
-    color: white;
+    background-image: URL("data/0.jpg");
 }
 
 .x16{
-    background-color: #f59575;
-    color: white;
+    background-image: URL("data/0.jpg");
 }
 
 .x32{
-    background-color: #f57c5f;
-    color: white;
+    background-image: URL("data/0.jpg");
 }
 
 .x64{
-    background-color: #f65d3b;
-    color: white;
+    background-image: URL("data/0.jpg");
 }
 
 .x128{
-    background-color: #edce71;
-    color: white;
+    background-image: URL("data/0.jpg");
 }
 
 .x256{
-    background-color: #edcc63;
-    color: white;
+    background-image: URL("data/0.jpg");
 }
 
 .x512{
