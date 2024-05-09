@@ -11,8 +11,8 @@ hr {
     width: 400px;
     height: 400px;
 
-    background-color: #f56767;
-    border: 6px solid #f5bcbc;
+    background-color: #e34234;
+    border: 6px solid #f28379;
 
     margin: 0 auto;
     display: flex;
@@ -22,7 +22,7 @@ hr {
 .tile {
     width: 90px;
     height: 90px;
-    border: 5px solid #f5bcbc;
+    border: 5px solid #f28379;
 }
 
 /* colored tiles */
