@@ -3,6 +3,9 @@ var score = 0;
 var rows = 4;
 var columns = 4;
 
+var pastBoards = [];
+var pastScores = [];
+
 window.onload = function() {
     setGame();
 }
@@ -53,21 +56,28 @@ function updateTile(tile, num) {
 
 document.addEventListener('keyup', (e) => {
     if (e.code == "ArrowLeft") {
+        saveCurrentState();
         slideLeft();
         setTwo();
+        updateUI();
     }
     else if (e.code == "ArrowRight") {
+        saveCurrentState();
         slideRight();
         setTwo();
+        updateUI();
     }
     else if (e.code == "ArrowUp") {
+        saveCurrentState();
         slideUp();
         setTwo();
-
+        updateUI();
     }
     else if (e.code == "ArrowDown") {
+        saveCurrentState();
         slideDown();
         setTwo();
+        updateUI();
     }
     document.getElementById("score").innerText = score;
 })
@@ -186,4 +196,27 @@ function hasEmptyTile() {
         }
     }
     return false;
+}
+
+function saveCurrentState() {
+    pastBoards.push(JSON.parse(JSON.stringify(board)));  // Deep copy of board
+    pastScores.push(score);
+}
+
+function undoMove() {
+    if (pastBoards.length > 0) {
+        board = pastBoards.pop();  // Restore the last board state
+        score = pastScores.pop();  // Restore the last score
+        updateUI();  // Function to refresh the UI based on the restored state
+    }
+}
+
+function updateUI() {
+    for (let r = 0; r < rows; r++) {
+        for (let c = 0; c < columns; c++) {
+            let tile = document.getElementById(r.toString() + "-" + c.toString());
+            updateTile(tile, board[r][c]);
+        }
+    }
+    document.getElementById("score").innerText = score;
 }
